@@ -4,5 +4,6 @@ EPCdata <- read.table(file = "/home/ignat/R/MyCode/household_power_consumption.t
 png("/home/ignat/R/MyCode/plot1.png",width=480,height=480,units="px",res=72)
 
 hist(EPCdata$GlobalAP, col = "red", xlab = "Global Active Power (kilowatts)", main = "Global Active Power")
+# making histogram
 
 dev.off()
